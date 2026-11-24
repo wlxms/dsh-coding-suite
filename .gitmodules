@@ -1,0 +1,24 @@
+[submodule "plugins/dsh-semantic"]
+	path = plugins/dsh-semantic
+	url = https://github.com/wlxms/dsh-semantic.git
+	branch = main
+[submodule "plugins/dsh-statusbar"]
+	path = plugins/dsh-statusbar
+	url = https://github.com/wlxms/dsh-statusbar.git
+	branch = main
+[submodule "plugins/dsh-coderef"]
+	path = plugins/dsh-coderef
+	url = https://github.com/wlxms/dsh-coderef.git
+	branch = main
+[submodule "plugins/dsh-coderef-renderer"]
+	path = plugins/dsh-coderef-renderer
+	url = https://github.com/wlxms/dsh-coderef-renderer.git
+	branch = main
+[submodule "plugins/dsh-ehm"]
+	path = plugins/dsh-ehm
+	url = https://github.com/wlxms/dsh-ehm.git
+	branch = main
+[submodule "plugins/dsh-jump"]
+	path = plugins/dsh-jump
+	url = https://github.com/wlxms/dsh-jump.git
+	branch = main
