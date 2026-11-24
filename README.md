@@ -74,4 +74,4 @@ powershell -ExecutionPolicy Bypass -File scripts/build.ps1 `
 
 ## License
 
-各子模块保留自己的许可证；未声明许可证的子模块默认按 MIT 处理。
+各子模块的许可证以各自仓库为准；本伞仓库本身仅包含子模块引用和说明文档。
