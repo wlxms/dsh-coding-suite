@@ -22,3 +22,7 @@
 	path = plugins/dsh-jump
 	url = https://github.com/wlxms/dsh-jump.git
 	branch = main
+[submodule "plugins/enhance-mermaid"]
+	path = plugins/enhance-mermaid
+	url = https://github.com/wlxms/enhance-mermaid.git
+	branch = main
