@@ -10,6 +10,7 @@ dsh-coding-suite
     ├── dsh-coderef            Host 符号索引、引用解析、跳转目标
     ├── dsh-coderef-renderer   聊天气泡里的引用 chip、代码块引用
     ├── dsh-ehm                enhanced UML / Mermaid 渲染
+    ├── dsh-delivery-tree      收尾交付面板的目录树形态（纯 Client）
     ├── dsh-jump               IDE 跳转适配层
     └── enhance-mermaid        EHM 引擎、CLI、IR、viewer
 ```
@@ -37,6 +38,7 @@ git submodule update --remote --merge
 | [dsh-coderef](https://github.com/wlxms/dsh-coderef) | 工作区符号/文件索引、`/coderef/*`、引用证据 | 无 |
 | [dsh-coderef-renderer](https://github.com/wlxms/dsh-coderef-renderer) | fork Markdown 渲染：行内代码、粗体、代码块、引用 footer | dsh-coderef Host |
 | [dsh-ehm](https://github.com/wlxms/dsh-ehm) | `ehm` UML/Mermaid 渲染、消息内大图、右侧栏 | 无 |
+| [dsh-delivery-tree](https://github.com/wlxms/dsh-delivery-tree) | 收尾交付面板：改动文件渲染成可展开目录树（图标 / 折叠 / 键盘），交付卡片保留并与树互指 | 需内置 `@deepseek-ai/dsh-client-ui-deliverables` 在场 |
 | [dsh-jump](https://github.com/wlxms/dsh-jump) | 把 `file:line:column` 交给 VSCode/Cursor/Rider 等 IDE | 无 |
 | [enhance-mermaid](https://github.com/wlxms/enhance-mermaid) | EHM 引擎、IR、H5 viewer、CLI；dsh-ehm 的渲染后端 | 无 |
 
@@ -77,3 +79,5 @@ powershell -ExecutionPolicy Bypass -File scripts/build.ps1 `
 ## License
 
 各子模块的许可证以各自仓库为准；本伞仓库本身仅包含子模块引用和说明文档。
+
+

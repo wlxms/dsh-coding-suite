@@ -26,3 +26,6 @@
 	path = plugins/enhance-mermaid
 	url = https://github.com/wlxms/enhance-mermaid.git
 	branch = main
+[submodule "plugins/dsh-delivery-tree"]
+	path = plugins/dsh-delivery-tree
+	url = https://github.com/wlxms/dsh-delivery-tree.git
